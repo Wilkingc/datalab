@@ -1,0 +1,6 @@
+FROM jupyter/datascience-notebook:latest
+
+# No additional packages installed by Dockerfile, students will install them.
+
+
+USER $NB_UID
