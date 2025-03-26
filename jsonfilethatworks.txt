@@ -1,0 +1,17 @@
+{
+    "name": "Deep Dive Data Science",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "forwardPorts": [8888],
+    "postCreateCommand":  "jupyter lab --allow-root --ip=0.0.0.0 --NotebookApp.token=''"
+
+}
